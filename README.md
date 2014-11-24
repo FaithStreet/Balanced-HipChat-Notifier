@@ -12,4 +12,4 @@ A Sinatra service to receive webhook events from Balanced Payments and forward t
 3. Create a webhook in your Balanced marketplace. You can do this in Dashboard > My Marketplace > Settings > Add a webhook
 
 ### Credits
-Balanced HipChat Notifier is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+Balanced HipChat Notifier is released under the [MIT License](http://www.opensource.org/licenses/MIT). It is maintained courtesy of [FaithStreet](http://www.faithstreet.com) by [Glenn Ericksen](https://twitter.com/glennericksen).
