@@ -1,0 +1,12 @@
+{
+  "name": "Balanced HipChat Notifier",
+  "description": "A simple service to forward Balanced events to HipChat",
+  "keywords": [
+    "balanced payments",
+    "hipchat",
+    "sinatra"
+  ],
+  "addons": [],
+  "env": {},
+  "repository": "https://github.com/faithstreet/balanced-hipchat-notifier"
+}
