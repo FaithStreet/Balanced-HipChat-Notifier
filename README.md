@@ -1,0 +1,15 @@
+## Balanced Payments HipChat Notifier
+A Sinatra service to receive webhook events from Balanced Payments and forward them as messages to a HipChat room
+
+### Basic Installation
+1. Install the app to a server of your choice.
+2. Set environment variables for `HIPCHAT_BALANCED_API` and `HIPCHAT_BALANCED_ROOM_ID`
+3. Create a webhook in your Balanced marketplace. You can do this in Dashboard > My Marketplace > Settings > Add a webhook
+
+### Heroku Installation
+1. [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/faithstreet/Balanced-HipChat-Notifier)
+2. Set the environment variables `heroku config:set HIPCHAT_BALANCED_API=youapikey HIPCHAT_BALANCED_ROOM_ID=roomid`
+3. Create a webhook in your Balanced marketplace. You can do this in Dashboard > My Marketplace > Settings > Add a webhook
+
+### Credits
+Balanced HipChat Notifier is released under the [MIT License](http://www.opensource.org/licenses/MIT).
